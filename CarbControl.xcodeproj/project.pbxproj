@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		711F0B2D24B027BC0016EE12 /* CarbControl WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 711F0B2C24B027BC0016EE12 /* CarbControl WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		711F0B3324B027BC0016EE12 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711F0B3124B027BC0016EE12 /* Interface.storyboard */; };
+		711F0B3524B027BF0016EE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711F0B3424B027BF0016EE12 /* Assets.xcassets */; };
+		711F0B3C24B027BF0016EE12 /* CarbControl WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 711F0B3B24B027BF0016EE12 /* CarbControl WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		711F0B4124B027BF0016EE12 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F0B4024B027BF0016EE12 /* InterfaceController.swift */; };
+		711F0B4324B027BF0016EE12 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F0B4224B027BF0016EE12 /* ExtensionDelegate.swift */; };
+		711F0B4524B027BF0016EE12 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F0B4424B027BF0016EE12 /* NotificationController.swift */; };
+		711F0B4724B027C00016EE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711F0B4624B027C00016EE12 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		711F0B2E24B027BC0016EE12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711F0B2224B027BC0016EE12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711F0B2B24B027BC0016EE12;
+			remoteInfo = "CarbControl WatchKit App";
+		};
+		711F0B3D24B027BF0016EE12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711F0B2224B027BC0016EE12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711F0B3A24B027BF0016EE12;
+			remoteInfo = "CarbControl WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		711F0B4F24B027C00016EE12 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				711F0B3C24B027BF0016EE12 /* CarbControl WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711F0B5324B027C00016EE12 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				711F0B2D24B027BC0016EE12 /* CarbControl WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		711F0B2824B027BC0016EE12 /* CarbControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		711F0B2C24B027BC0016EE12 /* CarbControl WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarbControl WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711F0B3224B027BC0016EE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		711F0B3424B027BF0016EE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		711F0B3624B027BF0016EE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711F0B3B24B027BF0016EE12 /* CarbControl WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CarbControl WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711F0B4024B027BF0016EE12 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		711F0B4224B027BF0016EE12 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		711F0B4424B027BF0016EE12 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		711F0B4624B027C00016EE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		711F0B4824B027C00016EE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711F0B4924B027C00016EE12 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		711F0B3824B027BF0016EE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711F0B2124B027BC0016EE12 = {
+			isa = PBXGroup;
+			children = (
+				711F0B3024B027BC0016EE12 /* CarbControl WatchKit App */,
+				711F0B3F24B027BF0016EE12 /* CarbControl WatchKit Extension */,
+				711F0B2924B027BC0016EE12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		711F0B2924B027BC0016EE12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711F0B2824B027BC0016EE12 /* CarbControl.app */,
+				711F0B2C24B027BC0016EE12 /* CarbControl WatchKit App.app */,
+				711F0B3B24B027BF0016EE12 /* CarbControl WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		711F0B3024B027BC0016EE12 /* CarbControl WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				711F0B3124B027BC0016EE12 /* Interface.storyboard */,
+				711F0B3424B027BF0016EE12 /* Assets.xcassets */,
+				711F0B3624B027BF0016EE12 /* Info.plist */,
+			);
+			path = "CarbControl WatchKit App";
+			sourceTree = "<group>";
+		};
+		711F0B3F24B027BF0016EE12 /* CarbControl WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				711F0B4024B027BF0016EE12 /* InterfaceController.swift */,
+				711F0B4224B027BF0016EE12 /* ExtensionDelegate.swift */,
+				711F0B4424B027BF0016EE12 /* NotificationController.swift */,
+				711F0B4624B027C00016EE12 /* Assets.xcassets */,
+				711F0B4824B027C00016EE12 /* Info.plist */,
+				711F0B4924B027C00016EE12 /* PushNotificationPayload.apns */,
+			);
+			path = "CarbControl WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		711F0B2724B027BC0016EE12 /* CarbControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711F0B5424B027C00016EE12 /* Build configuration list for PBXNativeTarget "CarbControl" */;
+			buildPhases = (
+				711F0B2624B027BC0016EE12 /* Resources */,
+				711F0B5324B027C00016EE12 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711F0B2F24B027BC0016EE12 /* PBXTargetDependency */,
+			);
+			name = CarbControl;
+			productName = CarbControl;
+			productReference = 711F0B2824B027BC0016EE12 /* CarbControl.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		711F0B2B24B027BC0016EE12 /* CarbControl WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711F0B5024B027C00016EE12 /* Build configuration list for PBXNativeTarget "CarbControl WatchKit App" */;
+			buildPhases = (
+				711F0B2A24B027BC0016EE12 /* Resources */,
+				711F0B4F24B027C00016EE12 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711F0B3E24B027BF0016EE12 /* PBXTargetDependency */,
+			);
+			name = "CarbControl WatchKit App";
+			productName = "CarbControl WatchKit App";
+			productReference = 711F0B2C24B027BC0016EE12 /* CarbControl WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		711F0B3A24B027BF0016EE12 /* CarbControl WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711F0B4C24B027C00016EE12 /* Build configuration list for PBXNativeTarget "CarbControl WatchKit Extension" */;
+			buildPhases = (
+				711F0B3724B027BF0016EE12 /* Sources */,
+				711F0B3824B027BF0016EE12 /* Frameworks */,
+				711F0B3924B027BF0016EE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CarbControl WatchKit Extension";
+			productName = "CarbControl WatchKit Extension";
+			productReference = 711F0B3B24B027BF0016EE12 /* CarbControl WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		711F0B2224B027BC0016EE12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Dana Zarezankova";
+				TargetAttributes = {
+					711F0B2724B027BC0016EE12 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					711F0B2B24B027BC0016EE12 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					711F0B3A24B027BF0016EE12 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 711F0B2524B027BC0016EE12 /* Build configuration list for PBXProject "CarbControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 711F0B2124B027BC0016EE12;
+			productRefGroup = 711F0B2924B027BC0016EE12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				711F0B2724B027BC0016EE12 /* CarbControl */,
+				711F0B2B24B027BC0016EE12 /* CarbControl WatchKit App */,
+				711F0B3A24B027BF0016EE12 /* CarbControl WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		711F0B2624B027BC0016EE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711F0B2A24B027BC0016EE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711F0B3524B027BF0016EE12 /* Assets.xcassets in Resources */,
+				711F0B3324B027BC0016EE12 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711F0B3924B027BF0016EE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711F0B4724B027C00016EE12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		711F0B3724B027BF0016EE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711F0B4524B027BF0016EE12 /* NotificationController.swift in Sources */,
+				711F0B4324B027BF0016EE12 /* ExtensionDelegate.swift in Sources */,
+				711F0B4124B027BF0016EE12 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		711F0B2F24B027BC0016EE12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711F0B2B24B027BC0016EE12 /* CarbControl WatchKit App */;
+			targetProxy = 711F0B2E24B027BC0016EE12 /* PBXContainerItemProxy */;
+		};
+		711F0B3E24B027BF0016EE12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711F0B3A24B027BF0016EE12 /* CarbControl WatchKit Extension */;
+			targetProxy = 711F0B3D24B027BF0016EE12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		711F0B3124B027BC0016EE12 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711F0B3224B027BC0016EE12 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		711F0B4A24B027C00016EE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		711F0B4B24B027C00016EE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		711F0B4D24B027C00016EE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CarbControl WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = summerstudent.CarbControl.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		711F0B4E24B027C00016EE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CarbControl WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = summerstudent.CarbControl.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		711F0B5124B027C00016EE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = CarbControl_WatchKit_Extension;
+				INFOPLIST_FILE = "CarbControl WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = summerstudent.CarbControl.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		711F0B5224B027C00016EE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = CarbControl_WatchKit_Extension;
+				INFOPLIST_FILE = "CarbControl WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = summerstudent.CarbControl.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		711F0B5524B027C00016EE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = summerstudent.CarbControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		711F0B5624B027C00016EE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = summerstudent.CarbControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		711F0B2524B027BC0016EE12 /* Build configuration list for PBXProject "CarbControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711F0B4A24B027C00016EE12 /* Debug */,
+				711F0B4B24B027C00016EE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711F0B4C24B027C00016EE12 /* Build configuration list for PBXNativeTarget "CarbControl WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711F0B4D24B027C00016EE12 /* Debug */,
+				711F0B4E24B027C00016EE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711F0B5024B027C00016EE12 /* Build configuration list for PBXNativeTarget "CarbControl WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711F0B5124B027C00016EE12 /* Debug */,
+				711F0B5224B027C00016EE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711F0B5424B027C00016EE12 /* Build configuration list for PBXNativeTarget "CarbControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711F0B5524B027C00016EE12 /* Debug */,
+				711F0B5624B027C00016EE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 711F0B2224B027BC0016EE12 /* Project object */;
+}

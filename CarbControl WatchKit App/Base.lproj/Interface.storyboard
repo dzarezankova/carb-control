@@ -13,18 +13,17 @@
                     <items>
                         <button width="1" alignment="left" title="Calculate your carbs" id="7He-9x-mlJ">
                             <connections>
-                                <action selector="buttonTapped" destination="AgC-eL-Hgc" id="KJZ-9M-PSf"/>
+                                <segue destination="Ic1-li-Q6q" kind="push" id="Gzi-cR-eqK"/>
                             </connections>
                         </button>
                         <button width="1" alignment="left" title="Add a favourite meal here" id="ptm-Fl-uSr">
                             <connections>
-                                <action selector="favesTapped" destination="AgC-eL-Hgc" id="Ooc-oE-GM9"/>
                                 <segue destination="sUW-UB-ZGt" kind="push" id="PPK-Xj-FrA"/>
                             </connections>
                         </button>
                         <button width="1" alignment="left" title="Find a snack that fits your goals" id="xhG-VF-vwq">
                             <connections>
-                                <action selector="reccTapped" destination="AgC-eL-Hgc" id="u8x-Nu-YNb"/>
+                                <segue destination="wSY-II-0Pb" kind="push" id="NBw-XT-h3R"/>
                             </connections>
                         </button>
                     </items>
@@ -52,21 +51,33 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="220" y="743"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
                 <controller id="4sK-HA-Art" customClass="NotificationController" customModule="CarbControl_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="589" y="936"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
                 <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="CarbControl_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="826" y="345"/>
+            <point key="canvasLocation" x="220" y="1172"/>
+        </scene>
+        <!--Carb Calc-->
+        <scene sceneID="dTL-FY-jf3">
+            <objects>
+                <controller id="Ic1-li-Q6q" customClass="CarbCalc" customModule="CarbControl_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Label" id="Sll-ui-hG6"/>
+                        <textField width="1" alignment="left" text="Text" id="SAo-Zg-W5r"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="838" y="-83"/>
         </scene>
         <!--Interface Controller2-->
         <scene sceneID="Xed-m2-C4t">
@@ -93,7 +104,21 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="468" y="345"/>
+            <point key="canvasLocation" x="838" y="227"/>
+        </scene>
+        <!--Snack Suggestions-->
+        <scene sceneID="3KX-ya-tt2">
+            <objects>
+                <controller id="wSY-II-0Pb" customClass="SnackSuggestions" customModule="CarbControl_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="26" alignment="left" text="Range label" id="8JG-lC-ZRP"/>
+                        <button width="1" alignment="left" title="0-10" id="eGp-i3-EPH"/>
+                        <button width="1" alignment="left" title="10-50" id="1Py-5p-fQz"/>
+                        <button width="1" alignment="left" title="50-100" id="knl-Ri-OMd"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="838" y="603"/>
         </scene>
     </scenes>
 </document>

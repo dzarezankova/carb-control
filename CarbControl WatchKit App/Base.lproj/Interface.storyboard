@@ -11,30 +11,20 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CarbControl_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="Calculate your carbs" id="7He-9x-mlJ">
-                            <connections>
-                                <segue destination="Ic1-li-Q6q" kind="push" id="Gzi-cR-eqK"/>
-                            </connections>
+                        <button width="134" height="49" alignment="left" title="Blood Sugar Recommendations" id="7He-9x-mlJ">
+                            <fontDescription key="font" type="system" pointSize="13"/>
                         </button>
-                        <button width="1" alignment="left" title="Add a favourite meal here" id="ptm-Fl-uSr">
-                            <connections>
-                                <segue destination="sUW-UB-ZGt" kind="push" id="PPK-Xj-FrA"/>
-                            </connections>
-                        </button>
-                        <button width="1" alignment="left" title="Find a snack that fits your goals" id="xhG-VF-vwq">
-                            <connections>
-                                <segue destination="wSY-II-0Pb" kind="push" id="NBw-XT-h3R"/>
-                            </connections>
-                        </button>
+                        <button width="1" alignment="left" title="Add a favourite meal here" id="ptm-Fl-uSr"/>
+                        <button width="1" alignment="left" title="Find a snack that fits your goals" id="xhG-VF-vwq"/>
                     </items>
                     <connections>
+                        <outlet property="bloodSugarButton" destination="7He-9x-mlJ" id="ZIO-lY-qww"/>
                         <outlet property="favsButton" destination="ptm-Fl-uSr" id="qIg-nY-Xif"/>
                         <outlet property="reccButton" destination="xhG-VF-vwq" id="jFh-hI-LZc"/>
-                        <outlet property="startButton" destination="7He-9x-mlJ" id="li7-ZA-VFO"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="220" y="303"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -66,59 +56,6 @@
                 <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="CarbControl_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="220" y="1172"/>
-        </scene>
-        <!--Carb Calc-->
-        <scene sceneID="dTL-FY-jf3">
-            <objects>
-                <controller id="Ic1-li-Q6q" customClass="CarbCalc" customModule="CarbControl_WatchKit_Extension">
-                    <items>
-                        <label alignment="left" text="Label" id="Sll-ui-hG6"/>
-                        <textField width="1" alignment="left" text="Text" id="SAo-Zg-W5r"/>
-                    </items>
-                </controller>
-            </objects>
-            <point key="canvasLocation" x="838" y="-83"/>
-        </scene>
-        <!--Interface Controller2-->
-        <scene sceneID="Xed-m2-C4t">
-            <objects>
-                <controller id="sUW-UB-ZGt" customClass="InterfaceController2" customModule="CarbControl_WatchKit_Extension">
-                    <items>
-                        <table alignment="left" id="S52-ns-ONG">
-                            <items>
-                                <tableRow identifier="cell" selectable="NO" id="dME-TM-5q9" customClass="RowController" customModule="CarbControl_WatchKit_Extension">
-                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="f8p-ab-UT6">
-                                        <items>
-                                            <label width="117" height="35" alignment="left" text="Label" id="Z6s-xU-SqD"/>
-                                        </items>
-                                    </group>
-                                    <connections>
-                                        <outlet property="myLabel" destination="Z6s-xU-SqD" id="Ags-Et-dql"/>
-                                    </connections>
-                                </tableRow>
-                            </items>
-                        </table>
-                    </items>
-                    <connections>
-                        <outlet property="faveMeals" destination="S52-ns-ONG" id="ecO-P1-eSU"/>
-                    </connections>
-                </controller>
-            </objects>
-            <point key="canvasLocation" x="838" y="227"/>
-        </scene>
-        <!--Snack Suggestions-->
-        <scene sceneID="3KX-ya-tt2">
-            <objects>
-                <controller id="wSY-II-0Pb" customClass="SnackSuggestions" customModule="CarbControl_WatchKit_Extension">
-                    <items>
-                        <label width="136" height="26" alignment="left" text="Range label" id="8JG-lC-ZRP"/>
-                        <button width="1" alignment="left" title="0-10" id="eGp-i3-EPH"/>
-                        <button width="1" alignment="left" title="10-50" id="1Py-5p-fQz"/>
-                        <button width="1" alignment="left" title="50-100" id="knl-Ri-OMd"/>
-                    </items>
-                </controller>
-            </objects>
-            <point key="canvasLocation" x="838" y="603"/>
         </scene>
     </scenes>
 </document>

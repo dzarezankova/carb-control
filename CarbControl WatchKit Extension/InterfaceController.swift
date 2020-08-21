@@ -12,7 +12,7 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
     
-    @IBOutlet var startButton: WKInterfaceButton!
+    @IBOutlet var bloodSugarButton: WKInterfaceButton!
     
     @IBOutlet var favsButton: WKInterfaceButton!
     @IBOutlet var reccButton: WKInterfaceButton!

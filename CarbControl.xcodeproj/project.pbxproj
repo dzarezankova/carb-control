@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20FA5F5224B94E230020A84D /* FaveMeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FA5F5124B94E230020A84D /* FaveMeals.swift */; };
 		710F3BF924C2360E003F0EAA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711F0B3124B027BC0016EE12 /* Interface.storyboard */; };
-		710F3BFB24C23AFC003F0EAA /* CarbCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710F3BFA24C23AFC003F0EAA /* CarbCalc.swift */; };
-		710F3BFD24C23E3E003F0EAA /* SnackSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710F3BFC24C23E3E003F0EAA /* SnackSuggestions.swift */; };
 		711F0B2D24B027BC0016EE12 /* CarbControl WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 711F0B2C24B027BC0016EE12 /* CarbControl WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		711F0B3324B027BC0016EE12 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711F0B3124B027BC0016EE12 /* Interface.storyboard */; };
 		711F0B3524B027BF0016EE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711F0B3424B027BF0016EE12 /* Assets.xcassets */; };
@@ -64,9 +61,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		20FA5F5124B94E230020A84D /* FaveMeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaveMeals.swift; sourceTree = "<group>"; };
-		710F3BFA24C23AFC003F0EAA /* CarbCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbCalc.swift; sourceTree = "<group>"; };
-		710F3BFC24C23E3E003F0EAA /* SnackSuggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackSuggestions.swift; sourceTree = "<group>"; };
 		711F0B2824B027BC0016EE12 /* CarbControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		711F0B2C24B027BC0016EE12 /* CarbControl WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarbControl WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		711F0B3224B027BC0016EE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -130,9 +124,6 @@
 				711F0B4624B027C00016EE12 /* Assets.xcassets */,
 				711F0B4824B027C00016EE12 /* Info.plist */,
 				711F0B4924B027C00016EE12 /* PushNotificationPayload.apns */,
-				710F3BFA24C23AFC003F0EAA /* CarbCalc.swift */,
-				20FA5F5124B94E230020A84D /* FaveMeals.swift */,
-				710F3BFC24C23E3E003F0EAA /* SnackSuggestions.swift */,
 			);
 			path = "CarbControl WatchKit Extension";
 			sourceTree = "<group>";
@@ -267,9 +258,6 @@
 			files = (
 				711F0B4524B027BF0016EE12 /* NotificationController.swift in Sources */,
 				711F0B4324B027BF0016EE12 /* ExtensionDelegate.swift in Sources */,
-				710F3BFB24C23AFC003F0EAA /* CarbCalc.swift in Sources */,
-				20FA5F5224B94E230020A84D /* FaveMeals.swift in Sources */,
-				710F3BFD24C23E3E003F0EAA /* SnackSuggestions.swift in Sources */,
 				711F0B4124B027BF0016EE12 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
